@@ -87,7 +87,7 @@ const VerticalSlider: React.FC<SliderProps> = ({
   // Helper Variables
   const _moveStartValue = useSharedValue<number>(0);
   const _value = useSharedValue<number>(currentValue);
-  const value = new Animated.Value<number>(currentValue);
+  const value = Animated.Value<number>(currentValue);
 
   // Calculating Values from props.value
   const calculateValues = () => {
