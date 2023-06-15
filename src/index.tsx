@@ -240,7 +240,7 @@ const VerticalSlider: React.FC<SliderProps> = ({
             <Animated.Text
               style={[styles.ballText, { color: ballIndicatorTextColor }]}
             >
-              {value}
+              {value.value}
             </Animated.Text>
           )}
         </Animated.View>
