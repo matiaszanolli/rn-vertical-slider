@@ -20,7 +20,6 @@ const renderIcon = (newVal: number) => {
       styles.name = 'heart-dislike-circle-outline';
     }
     return styles;
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [newVal]);
   return (
     <View>
